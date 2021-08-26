@@ -1,4 +1,14 @@
 .container {
-    display: block; 
-    padding:  80px 300px;
+  display: block;
+  padding: 80px 300px;
+}
+
+.CurrentInfo {
+  display: block;
+  padding: 40px 2px;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
 }
