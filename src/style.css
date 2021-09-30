@@ -1,3 +1,11 @@
+.weather-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid #dc9cfc;
+  border-radius: 6px;
+}
+
 .container {
   display: block;
   padding: 80px 300px;
@@ -8,40 +16,52 @@
   padding: 40px 2px;
 }
 .WeeklyInfo {
-  max-width: 900px;
+  max-width: 800px;
   padding: 40px 0;
   margin: 0 auto;
   text-align: center;
 }
-h1 {
+
+body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
-  font-weight: 700;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 200;
+  color: #878787;
+  line-height: 28px;
+  margin-bottom: 0;
 }
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 60px;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 25px;
 }
 
-h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 400;
+ul {
+  margin: 0;
+  padding: 0;
 }
+
+li {
+  list-style: none;
+  color: #878787;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 footer {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: #dc9cfc;
 }
 .hari {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
 .storm {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;
   opacity: 0.5px;
