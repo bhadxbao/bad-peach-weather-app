@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <script src="https://kit.fontawesome.com/82763d81a7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
@@ -39,15 +40,13 @@
       <div class="CurrentInfo">
         <div class="row">
           <div class="col">
-            <h1>
-              Berlin
+            <h1 id="city">
             </h1>
             <ul>
               <li>
               Tuesday 19:15
               </li>
- <li>
-              Sunny
+ <li id="description">
               </li>
 </ul>
           </div>
@@ -56,19 +55,17 @@
             <i class="far fa-sun fa-spin fa-3x"></i>
             <span class= "DayInfo">
            
-              <strong>22</strong>
+              <strong id="temperature"></strong>
                <span class= "units">•C | <a href="#" style="text-decoration: none;""> •F</a></span>
            
           
             <ul>
+             
               <li>
-                Precipitation: 0%
+                Humidity: <span id= "humidity"></span>%
               </li>
               <li>
-                Humidity: 73%
-              </li>
-              <li>
-                Wind: 2km/h
+                Wind: <span id= "wind"></span> km/h
               </li>
             </ul>
           </div>
