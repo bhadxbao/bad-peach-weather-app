@@ -19,21 +19,30 @@
     <div class="container">
       <div class= "weather-app">
       <div class="weather">
-        <form class= "enter-city">
+        <form id= "search-form">
+         <div class= "row">
           <div class="col-6">
             <div class="input-group">
             <input
-              type="text"
+              type="search"
               class="form-control"
-              id="ChosenCity"
+              id="city-input"
               aria-describedby="cityHelp"
-              placeholder="Enter a city"
+              placeholder="Enter a city..."
             />
-        
-          <span class="input-group-btn"> 
-          <button type="submit" class="btn btn-outline-secondary">Search</button>
-          </span>
+       
+          <div class="col-3"> 
+           
+          <input
+           type="submit" 
+           value = "Search"
+          class="btn btn-primary w-100"
+          
+          />
+          </div>
+          </div>
         </form>
+      
       </div>
       </div>
       </div>
@@ -73,68 +82,18 @@
             </ul>
           </div>
         </div>
-        <div class="WeeklyInfo">
-          
-          <div class="row">
-           
-            <div class="col-2">
-              <div class="hari">
-              Wed
-              </div>
-              <br />
-              <div class="storm">22• <span class="hotinhere">16•</span></div>
-            </div>
-          
-            <div class="col-2">
-               <div class="hari">
-              Thurs
-              </div>
-              <br />
-                <div class="storm">19• <span class="hotinhere">10•</span></div>
-            </div>
-            
-            <div class="col-2">
-               <div class="hari">
-              Fri
-              </div>
-              <br />
-              <div class="storm">20• <span class="hotinhere">12•</span></div>
-            </div>
-            
-            <div class="col-2">
-                 <div class="hari">
-              Sat
-              </div>
-              <br />
-                <div class="storm">18•<span class="hotinhere"> 9•</span></div>
-            </div>
-            
-            <div class="col-2">
-                <div class="hari">
-              Sun
-              </div>
-              <br />
-               <div class="storm">26• <span class="hotinhere">14•</span></div>
-              </div>
-             
-            <div class="col-2"> 
-               <div class="hari">
-            Mon
-            </div>
-            <br />
-             <div class="storm">15• <span class="hotinhere"> 7•</span></div>
-          </div>
+       
          
         </div>
        </div>
-      
-      </div>
-     
-      <script src="src/app.js"></script>
-    </div>
       <footer> 
         <a href ="https://github.com/bhadxbao/bad-peach-weather-app" style="text-decoration: none;" target="_blank">Open Source Code</a>
         by Mogman.
       </footer>
+      </div>
+     
+      <script src="src/app.js"></script>
+    </div>
+      
   </body>
 </html>
