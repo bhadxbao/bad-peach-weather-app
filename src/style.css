@@ -84,6 +84,17 @@ footer {
   line-height: 1;
 }
 
+.active {
+  color: #08070a;
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hover {
+  text-decoration: none;
+  color: #08070a;
+}
+
 .btn {
   background: #dc9cfc;
   color: #08070a;
