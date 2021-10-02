@@ -87,7 +87,7 @@ footer {
 .btn {
   background: #dc9cfc;
   color: #08070a;
-  border: 2px solid #dc9cfc;
+  border: 1px solid #dc9cfc;
   transition: all 200ms ease-in-out;
 }
 
