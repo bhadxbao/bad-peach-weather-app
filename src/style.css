@@ -104,6 +104,25 @@ footer {
 
 .btn:hover {
   background: #efd856;
-  border: 2px solid #efd856;
+  border: 1px solid #efd856;
   color: #878787;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #08070a;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
